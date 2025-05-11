@@ -88,9 +88,12 @@ plotter_simulation/
 │   ├── animations/            # Animation videos from simulator
 │   └── README.md              # Instructions for output files
 ├── line_generator.py          # Utility to generate random line segments
+├── edge_segments_generator.py # Utility to generate random line segments with endpoints near the edges
+├── face_generator.py          # Utility to generate a smiley face :)
 ├── algorithms.py              # Path planning algorithms (core algorithms only)
 ├── algorithm_processor.py     # Processing and utility functions
 ├── plotter_simulator.py       # Physics-based simulator with video output
+├── combine_anomations         # Combines four animation videos into one for comparison (not yet robust for different input filenames)
 └── README.md                  # This file
 ```
 
